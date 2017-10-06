@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 const Wrapper = styled.article`
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `
 const Pic = styled.div`
   position: relative;
