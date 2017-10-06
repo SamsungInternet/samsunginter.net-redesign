@@ -1,3 +1,17 @@
+In the project directory run:
+
+### `npm install`
+
+Then
+
+### `npm start`
+
+to see the project in development mode
+
+In the project directory, you can run:
+
+## Create React App docs
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
