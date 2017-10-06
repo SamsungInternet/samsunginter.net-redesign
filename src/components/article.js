@@ -9,24 +9,24 @@ const Wrapper = styled.article`
   background-blend-mode: soft-light;
   background-size: cover;
   grid-column: span 2;
+  padding: 20px;
 `
 
 const Info = styled.div`
   display: flex;
   align-items: center;
   flex-direction: ${ props => props.direction ? 'row-reverse' : 'row'};  
-  margin: 20px 0;
   text-align: ${ props => props.direction ? 'right' : 'left'};  
 `
 
 const User = styled.img`
   width: 75px;
   height: 75px;
-  margin: 0 20px;
 `
 
 const Title = styled.h2`
- max-width: 250px;
+  max-width: 250px;
+  margin: 20px;
   font-size: 1.2em;
   line-height: 1.4em;
   color: white;
@@ -37,7 +37,6 @@ const Type = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
 `
 
 const Icon = styled.img`
