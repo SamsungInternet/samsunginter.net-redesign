@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import styled from 'styled-components';
 import Header from './components/header'
-import Article from './components/article'
+import Article from './components/spotlightArticle'
 import Navigation from './components/navigation';
 import Featured from './components/featured';
 import Sidebar from './components/sidebar';
