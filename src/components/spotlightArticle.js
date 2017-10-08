@@ -8,8 +8,10 @@ const Wrapper = styled.article`
   background: url(${props => props.bgimg}) no-repeat center ${props => props.bgcolor};
   background-blend-mode: soft-light;
   background-size: cover;
-  grid-column: span 2;
   padding: 20px;
+  @media (min-width: 820px) {
+    grid-column: span 2;
+  }
 `
 
 const Info = styled.div`
@@ -22,6 +24,7 @@ const Info = styled.div`
 const User = styled.img`
   width: 75px;
   height: 75px;
+  flex-shrink: 0;
 `
 
 const Title = styled.h2`
