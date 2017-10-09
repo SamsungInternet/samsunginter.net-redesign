@@ -11,9 +11,10 @@ import LogoImg from '../img/sdevhublogo.svg';
 const Wrapper = styled.header`
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
   @media (min-width: 820px) {
-      align-items: center;
+    padding: 20px;
+    align-items: center;
   }
 `
 
@@ -25,12 +26,15 @@ const Logo = styled.img`
 `
 
 const Social = styled.ul`
+  position: absolute;
+  right: 15px;
   display: flex;
   flex-direction: column;
-  margin-top: 70px;
+  margin-top: 55px;
   @media (min-width: 820px) {
-     flex-direction: row;
-     margin-top: 0;
+    position: relative;
+    flex-direction: row;
+    margin-top: 0;
   }
 `
 const SocialLink = styled.a`

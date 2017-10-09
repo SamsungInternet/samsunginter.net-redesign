@@ -29,9 +29,9 @@ const User = styled.img`
 
 const Title = styled.h2`
   max-width: 250px;
-  margin: 20px;
-  font-size: 1.2em;
-  line-height: 1.4em;
+  margin: 0 20px;
+  font-size: 1em;
+  line-height: 1.2em;
   color: white;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.4);
 `

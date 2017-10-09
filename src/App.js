@@ -23,12 +23,15 @@ const Wrapper = styled.main`
 
 const TopArticle = styled.article`
   grid-column: span 3;
+  min-height: 350px;
+  padding-right: 70px;
   color: white;
   background: url(${props => props.bgimg}) no-repeat center #706cf5;
   background-blend-mode: soft-light;
   background-size: cover;
+  
   article {
-    font-size: 1.8em;
+    font-size: 1.2em;
   }
   div {
     align-items: flex-start;
@@ -39,6 +42,10 @@ const TopArticle = styled.article`
   }
   @media (min-width: 820px) {
     min-height: 450px;
+    padding: 0;
+    h2 {
+      font-size: 1.8em;
+    }
   }
 `
 const ArticleAside = styled.div`
@@ -52,10 +59,10 @@ const ArticleAside = styled.div`
 `
 
 const Title = styled.h1`
-margin: 20px;  
-font-size: 1.5em;
-font-style: italic;
-color: white;
+  margin: 20px;  
+  font-size: 1.5em;
+  font-style: italic;
+  color: white;
 `
 
 class App extends Component {
